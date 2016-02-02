@@ -1,0 +1,55 @@
+{
+    "id": "uniqueKey",
+    "key": "rest-1",
+    "name": "My Rest Activity",
+    "type": "rest-activity",
+    "metaData": {
+        "flowDisplayName":"myFlow"
+    },
+    "outcomes": [
+        {
+            "key": "rest-1-outcome-1",
+            "next": "Email1"
+        }
+    ],
+    "configurations": {
+        "applicationExtensionKey": "Test 1234",
+        "save": {
+            "url": "https://www.example.com/endpoint",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000,
+            "headers": "https://www.example.com/endpoint",
+            "body":"Hello "
+        },
+        "validate": {
+            "url": "https://www.example.com/endpoint",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000,
+            "headers": "https://www.example.com/endpoint",
+            "body":"Hello "
+        },
+        "publish": {
+            "url": "https://www.example.com/endpoint",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000,
+            "headers": "https://www.example.com/endpoint",
+            "body":"Hello "  
+        }
+    },
+    "arguments": {      
+        "execute": {
+            "url": "https://www.example.com/endpoint",
+            "headers": "",
+            "inArguments": [{
+                 "EmailAddress":"jscray@pierrysoftware.com"
+             }],
+            "body":"{\"EmailAddress\":\"jscray@pierrysoftware.com\"}",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000
+        }
+    }
+}

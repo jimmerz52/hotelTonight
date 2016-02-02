@@ -1,0 +1,55 @@
+{
+    "id": "Test 1234",
+    "key": "rest-1",
+    "name": "My Rest Activity",
+    "type": "rest-activity",
+    "metaData": {
+        "flowDisplayName":"myFlow"
+    },
+    "outcomes": [
+        {
+            "key": "rest-1-outcome-1",
+            "next": "<key of next activity>"
+        }
+    ],
+    "configurations": {
+        "applicationExtensionKey": "<app-extension-key>",            
+        "save": {
+            "url": "https://www.example.com/endpoint",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000,
+            "headers": "https://www.example.com/endpoint",
+            "body":"Hello "
+        },
+        "validate": {
+            "url": "https://www.example.com/endpoint",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000,
+            "headers": "https://www.example.com/endpoint",
+            "body":"Hello "
+        },
+        "publish": {
+            "url": "https://www.example.com/endpoint",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000,
+            "headers": "https://www.example.com/endpoint",
+            "body":"Hello "  
+        }
+    },
+    "arguments": {      
+        "execute": {
+            "url": "https://www.example.com/endpoint",
+            "headers": "",
+            "inArguments": [{
+                 "myArgument":""
+             }],
+            "body":"Hello . This field kept for backward compatibility.",
+            "method": "POST",
+            "useJwt": true,
+            "timeout": 3000
+        }
+    }
+}
