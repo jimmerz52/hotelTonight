@@ -9,8 +9,8 @@
   "type": "REST",
   "lang": {
     "en-US": {
-      "name": "This is the Name of the Activity",
-      "description": "A custom Journey Builder activity using workflow API v1.1 format."
+      "name": "Hotel Tonight Web Hook",
+      "description": "This allows Hotel Tonight to send data through their system"
     }
   },
   "arguments": {
@@ -26,19 +26,19 @@
       ],
       "body": "{\"Email\": \"{{Contact.Attribute.Person.FirstName}}\"}",
       "method": "post",
-      "url": "https://pierrydb.com/exacttarget/custom/execute.php"
+      "url": "https://et-custom-activity.herokuapp.com/execute"
     }
   },
   "configurationArguments": {
     "applicationExtensionKey": "Test 1234",
     "save": {
-      "url": "https://pierrydb.com/exacttarget/custom/save"
+      "url": "https://et-custom-activity.herokuapp.com/save"
     },
     "publish": {
-      "url": "https://pierrydb.com/exacttarget/custom/publish"
+      "url": "https://et-custom-activity.herokuapp.com/publish"
     },
     "validate": {
-      "url": "https://pierrydb.com/exacttarget/custom/validate"
+      "url": "https://et-custom-activity.herokuapp.com/validate"
     }
   },
   "wizardSteps": [

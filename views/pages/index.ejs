@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>Custom Journey Builder Activity</title>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript" src="/javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascript/require.js"></script>
     <script type="text/javascript">
         (function() {
             var config = {
@@ -14,7 +14,7 @@
             };
 
             var dependencies = [
-                'customActivity'
+                'javascript/customActivity'
             ];
 
             require(config, dependencies);
@@ -38,6 +38,13 @@
 </head>
 <body>
 <div id="step1" class="step">
+    <select id="select1"> 
+        <!--  -->
+        <option value="coupon">Coupon</option>
+        <option value="regular">Regular</option>
+        <!-- <option value="coupon"></option>
+        <option value="coupon"></option> -->
+    </select>
 </div>
 </body>
 </html>

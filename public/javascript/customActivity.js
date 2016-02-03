@@ -1,5 +1,5 @@
 define([
-    'postmonger'
+    'javascript/postmonger'
 ], function(
     Postmonger
 ) {
@@ -72,15 +72,15 @@ define([
         });
 
         // If there is no message selected, disable the next button
-     //   if (!message) {
-       //     showStep(null, 1);
-         //   connection.trigger('updateButton', { button: 'next', enabled: false });
-            // If there is a message, skip to the summary step
-       // } else {
-         //   $('#select1').find('option[value='+ message +']').attr('selected', 'selected');
-         //   $('#message').html(message);
-         //   showStep(null, 3);
-       // }
+       if (!message) {
+           showStep(null, 1);
+           connection.trigger('updateButton', { button: 'next', enabled: false });
+            If there is a message, skip to the summary step
+       } else {
+           $('#select1').find('option[value='+ message +']').attr('selected', 'selected');
+           $('#message').html(message);
+           showStep(null, 3);
+       }
     }
 
     function onGetTokens (tokens) {
@@ -158,7 +158,7 @@ define([
     }
 
     function save() {
-        //var name = $('#select1').find('option:selected').html();
+        var name = $('#select1').find('option:selected').html();
         var value = getMessage();
 
         // 'payload' is initialized on 'initActivity' above.
@@ -175,8 +175,8 @@ define([
     }
 
     function getMessage() {
-        //return $('#select1').find('option:selected').attr('value').trim();
-	return "Value";
+        return $('#select1').find('option:selected').attr('value').trim();
+	    // return "Value";
     }
 
 });
