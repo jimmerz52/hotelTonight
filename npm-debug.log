@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-save', 'ejs' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of /Applications/MAMP/htdocs/et-custom-activity/package.json
+5 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/et-custom-activity/node_modules/ejs/package.json
+6 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/et-custom-activity/node_modules/express/package.json
+7 verbose installManyTop reading scoped package data from /Applications/MAMP/htdocs/et-custom-activity/node_modules/save/package.json
+8 info package.json save@2.1.1 No license field.
+9 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/et-custom-activity/package.json
+10 verbose install ejs is installed as 2.3.3
+11 silly cache add args [ 'ejs@^2.3.3', null ]
+12 verbose cache add spec ejs@^2.3.3
+13 silly cache add parsed spec { raw: 'ejs@^2.3.3',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'ejs',
+13 silly cache add   rawSpec: '^2.3.3',
+13 silly cache add   spec: '>=2.3.3 <3.0.0',
+13 silly cache add   type: 'range' }
+14 silly addNamed ejs@>=2.3.3 <3.0.0
+15 verbose addNamed ">=2.3.3 <3.0.0" is a valid semver range for ejs
+16 silly addNameRange { name: 'ejs', range: '>=2.3.3 <3.0.0', hasData: false }
+17 silly mapToRegistry name ejs
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/ejs
+21 verbose addNameRange registry:https://registry.npmjs.org/ejs not in flight; fetching
+22 verbose get https://registry.npmjs.org/ejs not expired, no request
+23 silly addNameRange number 2 { name: 'ejs', range: '>=2.3.3 <3.0.0', hasData: true }
+24 silly addNameRange versions [ 'ejs',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.4',
+24 silly addNameRange     '0.8.5',
+24 silly addNameRange     '0.8.6',
+24 silly addNameRange     '0.8.8',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.0.3',
+24 silly addNameRange     '2.0.4',
+24 silly addNameRange     '2.0.5',
+24 silly addNameRange     '2.0.6',
+24 silly addNameRange     '2.0.7',
+24 silly addNameRange     '2.0.8',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.1.4',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '2.2.2',
+24 silly addNameRange     '2.2.3',
+24 silly addNameRange     '2.2.4',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '2.3.2',
+24 silly addNameRange     '2.3.3',
+24 silly addNameRange     '2.3.4',
+24 silly addNameRange     '2.4.1' ] ]
+25 silly addNamed ejs@2.4.1
+26 verbose addNamed "2.4.1" is a plain semver version for ejs
+27 silly mapToRegistry name ejs
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/ejs
+31 verbose addRemoteTarball https://registry.npmjs.org/ejs/-/ejs-2.4.1.tgz not in flight; adding
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.4.1.tgz',
+32 verbose addRemoteTarball   '82e15b1b2a1f948b18097476ba2bd7c66f4d1566' ]
+33 info retry fetch attempt 1 at 2:41:09 PM
+34 info attempt registry request try #1 at 2:41:09 PM
+35 http fetch GET https://registry.npmjs.org/ejs/-/ejs-2.4.1.tgz
+36 verbose request id b208a4917cb7a614
+37 http fetch 200 https://registry.npmjs.org/ejs/-/ejs-2.4.1.tgz
+38 silly fetchAndShaCheck shasum 82e15b1b2a1f948b18097476ba2bd7c66f4d1566
+39 verbose addTmpTarball /var/folders/rs/jm1yw0196g77c4kb1p_7w50m0000gn/T/npm-5033-92e40387/registry.npmjs.org/ejs/-/ejs-2.4.1.tgz not in flight; adding
+40 verbose addTmpTarball already have metadata; skipping unpack for ejs@2.4.1
+41 silly cache afterAdd ejs@2.4.1
+42 verbose afterAdd /Users/ezobin/.npm/ejs/2.4.1/package/package.json not in flight; writing
+43 verbose afterAdd /Users/ezobin/.npm/ejs/2.4.1/package/package.json written
+44 silly install resolved [ { name: 'ejs',
+44 silly install resolved     description: 'Embedded JavaScript templates',
+44 silly install resolved     keywords: [ 'template', 'engine', 'ejs' ],
+44 silly install resolved     version: '2.4.1',
+44 silly install resolved     author:
+44 silly install resolved      { name: 'Matthew Eernisse',
+44 silly install resolved        email: 'mde@fleegix.org',
+44 silly install resolved        url: 'http://fleegix.org' },
+44 silly install resolved     contributors: [ [Object] ],
+44 silly install resolved     license: 'Apache-2.0',
+44 silly install resolved     main: './lib/ejs.js',
+44 silly install resolved     repository: { type: 'git', url: 'git://github.com/mde/ejs.git' },
+44 silly install resolved     bugs: { url: 'https://github.com/mde/ejs/issues' },
+44 silly install resolved     homepage: 'https://github.com/mde/ejs',
+44 silly install resolved     dependencies: {},
+44 silly install resolved     devDependencies:
+44 silly install resolved      { browserify: '^8.0.3',
+44 silly install resolved        istanbul: '~0.3.5',
+44 silly install resolved        jake: '^8.0.0',
+44 silly install resolved        jsdoc: '^3.3.0-beta1',
+44 silly install resolved        'lru-cache': '^2.5.0',
+44 silly install resolved        mocha: '^2.1.0',
+44 silly install resolved        rimraf: '^2.2.8',
+44 silly install resolved        'uglify-js': '^2.4.16' },
+44 silly install resolved     engines: { node: '>=0.10.0' },
+44 silly install resolved     scripts:
+44 silly install resolved      { test: 'mocha',
+44 silly install resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha',
+44 silly install resolved        doc: 'rimraf out && jsdoc -c jsdoc.json lib/* docs/jsdoc/*',
+44 silly install resolved        devdoc: 'rimraf out && jsdoc -p -c jsdoc.json lib/* docs/jsdoc/*' },
+44 silly install resolved     _id: 'ejs@2.4.1',
+44 silly install resolved     _shasum: '82e15b1b2a1f948b18097476ba2bd7c66f4d1566',
+44 silly install resolved     _resolved: 'https://registry.npmjs.org/ejs/-/ejs-2.4.1.tgz',
+44 silly install resolved     _from: 'ejs@>=2.3.3 <3.0.0',
+44 silly install resolved     _npmVersion: '2.10.1',
+44 silly install resolved     _nodeVersion: '0.12.4',
+44 silly install resolved     _npmUser: { name: 'mde', email: 'mde@fleegix.org' },
+44 silly install resolved     maintainers: [ [Object], [Object] ],
+44 silly install resolved     dist:
+44 silly install resolved      { shasum: '82e15b1b2a1f948b18097476ba2bd7c66f4d1566',
+44 silly install resolved        tarball: 'http://registry.npmjs.org/ejs/-/ejs-2.4.1.tgz' },
+44 silly install resolved     directories: {} } ]
+45 info install ejs@2.4.1 into /Applications/MAMP/htdocs/et-custom-activity
+46 info installOne ejs@2.4.1
+47 verbose installOne of ejs to /Applications/MAMP/htdocs/et-custom-activity not in flight; installing
+48 warn locking Error: EACCES, open '/Users/ezobin/.npm/_locks/ejs-2b1fc7dafe2ea35c.lock'
+48 warn locking     at Error (native)
+48 warn locking  /Users/ezobin/.npm/_locks/ejs-2b1fc7dafe2ea35c.lock failed { [Error: EACCES, open '/Users/ezobin/.npm/_locks/ejs-2b1fc7dafe2ea35c.lock']
+48 warn locking   errno: -13,
+48 warn locking   code: 'EACCES',
+48 warn locking   path: '/Users/ezobin/.npm/_locks/ejs-2b1fc7dafe2ea35c.lock' }
+49 verbose stack Error: Attempt to unlock /Applications/MAMP/htdocs/et-custom-activity/node_modules/ejs, which hasn't been locked
+49 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+49 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+49 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+49 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+49 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+49 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+49 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+50 verbose cwd /Applications/MAMP/htdocs/et-custom-activity
+51 error Darwin 14.5.0
+52 error argv "node" "/usr/local/bin/npm" "install" "-save" "ejs"
+53 error node v0.12.6
+54 error npm  v2.11.2
+55 error Attempt to unlock /Applications/MAMP/htdocs/et-custom-activity/node_modules/ejs, which hasn't been locked
+56 error If you need help, you may report this error at:
+56 error     <https://github.com/npm/npm/issues>
+57 verbose exit [ 1, true ]

@@ -59,37 +59,14 @@ app.get('/validate', function(request, response) {
 
 app.get('/index.html', function(request, response) {
   var body = JSON.stringify(request.body);
-  fs.writeFile("/tmp/execute.log", body, function(err) {
+  fs.writeFile("/tmp/index.log", body, function(err) {
     if(err) {
       return console.log(err);
     }
     console.log("The file was saved!");
   });
+  response.render('pages/index');
 });
-
-// app.get('/config.json', function(request, response) {
-//   response.setHeader('Content-Type', 'application/json');
-//   var config = JSON.parse(fs.readFileSync('views/partials/config.json', 'utf8'));
-//   response.send(JSON.stringify(config));
-// });
-
-// app.get('/config.json', function(request, response) {
-//   response.setHeader('Content-Type', 'application/json');
-//   var config = JSON.parse(fs.readFileSync('views/partials/config.json', 'utf8'));
-//   response.send(JSON.stringify(config));
-// });
-
-// app.get('/config.json', function(request, response) {
-//   response.setHeader('Content-Type', 'application/json');
-//   var config = JSON.parse(fs.readFileSync('views/partials/config.json', 'utf8'));
-//   response.send(JSON.stringify(config));
-// });
-
-// app.get('/config.json', function(request, response) {
-//   response.setHeader('Content-Type', 'application/json');
-//   var config = JSON.parse(fs.readFileSync('views/partials/config.json', 'utf8'));
-//   response.send(JSON.stringify(config));
-// });
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
